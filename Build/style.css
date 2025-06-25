@@ -1,0 +1,54 @@
+:root {
+  --bg: #1e1e2e;
+  --text: white;
+  --accent: #00d9ff;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: rgba(255,255,255,0.07);
+  box-shadow: 0 0 20px var(--accent);
+  width: 90%;
+  max-width: 550px;
+}
+input {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: none;
+  width: 80%;
+}
+button {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--accent);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #00f5ff;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.dark {
+  --bg: #f1f1f1;
+  --text: #121212;
+  --accent: #0066cc;
+}
